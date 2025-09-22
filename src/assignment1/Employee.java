@@ -13,12 +13,19 @@ public class Employee implements Comparable<Employee>{
 		this.employeePay = employeePay;
 	}
 	public int compareTo(Employee x) {
-		return x.employeePay - this.employeePay;
+		int verdict1 = x.employeePay - this.employeePay;
+		if(verdict1 !=0 ) {
+			return verdict1;
+		}
+		return x.employeeName.compareTo(this.employeeName);
 	
 	}
 	public static int compareByName(Employee e1, Employee e2) {
-		return e1.employeeName.compareTo(e2.employeeName);
+		int verdict2 = e1.employeeName.compareTo(e2.employeeName);
+		if(verdict2 != 0) {
+			return verdict2;
+		}
+		return e2.employeePay - e1.employeePay;
 	}
 }
-//just checking
 
