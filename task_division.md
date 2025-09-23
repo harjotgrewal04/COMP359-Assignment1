@@ -43,6 +43,16 @@
 
 ### 3. Charvi (Pending Implementation)
 - **Language**: C++
+- **Components Implemented**:
+- Employee class implementation in C++
+- Custom sorting implementation
+   - sort by Name then Salary
+    - sort by salary then ID
+    - sort by name length then alphebetical
+**Files created**
+
+
+
 
 
 
