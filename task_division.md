@@ -51,12 +51,6 @@
     - sort by name length then alphebetical
 - **Files created**:
   ```
-src/assignment1/usingcpp/
-├── Employee.hpp, Comparators.hpp, LoadEmployees.hpp
-├── main.cpp, LoadEmployees.cpp, test_sorting.cpp, performance_test.cpp
-└── employee_dataset_sample.txt
-
-
 
       
   
