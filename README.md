@@ -62,5 +62,3 @@
    - https://docs.python.org/3/library/profile.html
    - Reference for performance measurement techniques
 
-Note: Each team member will add their own references for their respective implementations.
->>>>>>> 7d481cc (Added Python implementation with custom sorting, performance analysis, and documentation)
