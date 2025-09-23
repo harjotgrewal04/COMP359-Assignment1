@@ -1,18 +1,43 @@
-// test.cpp
+#include "Employee.hpp"
+#include <fstream>
+#include <sstream>
 #include <iostream>
-#include <string>
 
-struct Employee {
-    std::string name;
-    int id = 0;
-    double salary = 0.0;
-
-    Employee() = default;
-    Employee(const std::string& n, int i, double s) : name(n), id(i), salary(s) {}
-};
-
-int main() {
-    Employee e1("Alice Smith", 1, 60000.0);
-    std::cout << e1.name << ", id=" << e1.id << ", salary=" << e1.salary << "\n";
-    return 0;
+static std::string trim(const std::string& s) {
+    size_t a = s.find_first_not_of(" \t\r\n");
+    size_t b = s.find_last_not_of(" \t\r\n");
+    return (a == std::string::npos) ? "" : s.substr(a, b - a + 1);
 }
+
+std::vector<Employee> loadDataset(const std::string& path) {
+    std::vector<Employee> v;
+    std::ifstream in(path);
+    if (!in) {
+        std::cerr << "Could not open file: " << path << "\n";
+        return v;
+    }
+    std::string line;
+    while (std::getline(in, line)) {
+        if (trim(line).empty()) continue;
+        std::stringstream ss(line);
+        std::string namePart, idPart, salaryPart;
+
+        if (!std::getline(ss, namePart, ',')) continue;
+        if (!std::getline(ss, idPart, ',')) continue;
+        if (!std::getline(ss, salaryPart))   continue;
+
+        Employee e;
+        e.name   = trim(namePart);
+        try {
+            e.id     = std::stoll(trim(idPart));
+            e.salary = std::stoll(trim(salaryPart));
+        } catch (...) {
+            // skip bad lines
+            continue;
+        }
+        v.push_back(e);
+    }
+    return v;
+}
+
+
