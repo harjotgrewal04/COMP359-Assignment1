@@ -50,17 +50,7 @@
     - sort by salary then ID
     - sort by name length then alphebetical
 - **Files created**:
-  ```
-
-      
   
-
-
-
-
-
-
-
 ## Collaboration Points
 
 1. **Dataset Consistency**
