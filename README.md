@@ -54,6 +54,13 @@
    - https://docs.python.org/3/library/profile.html
    - Reference for performance measurement techniques
 
-### C++ Implementations
-1. 
+### C++ Implementations (Charvi)
+1. A detailed technical reference with complexity, usage and comparator details
+   https://en.cppreference.com/w/cpp/algorithm/sort.html
+   
+2. Used to read large datasets in C++ (used youtube video)
+   Youtube (2020, July.1). Reading a large data file in C++  https://www.youtube.com/watch?v=_VeCRNDNqBk
+   
+3. Java, Python, C++ Comparison
+ https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://medium.com/%40karanvishwakarma/java-python-c-comparison-coding-and-numerical-b25122698930&ved=2ahUKEwjZiZCose6PAxUnweYEHXqnABgQFnoECBgQAQ&usg=AOvVaw2NMuyRERxk_U5u5aM8U5Rd
 
