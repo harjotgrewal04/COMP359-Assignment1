@@ -27,6 +27,7 @@
 ### 2.1 Language-Specific Differences
 - **Java**:
   
+  
 - **Python**:
   
 ### 2.2 Performance Analysis
