@@ -49,7 +49,17 @@
    - sort by Name then Salary
     - sort by salary then ID
     - sort by name length then alphebetical
-**Files created**
+- **Files created**
+src/assignment1/usingcpp/
+├── Employee.hpp, Comparators.hpp, LoadEmployees.hpp
+├── main.cpp, LoadEmployees.cpp, test_sorting.cpp, performance_test.cpp
+└── employee_dataset_sample.txt
+
+
+
+      
+  
+
 
 
 
@@ -103,7 +113,9 @@
   - Documentation and test cases
 
 - [ ] C++ Implementation (Charvi)
-  - Will be added to the repository
+  - Employee class in C++
+  - Three custom sorting methods
+  - Sorting demo with tests and performance check
 
 ## Communication and Coordination
 
