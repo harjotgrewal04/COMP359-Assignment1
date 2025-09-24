@@ -14,6 +14,9 @@
 2. Used to read text file with large dataset and load into ArrayList.
    - Youtube. (2025, February.18). [Java] Reading CSV files and using the Comparable interface. YouTube. https://www.youtube.com/watch?v=A-59zayrIdo
 
+3. Used to measure execution time for each search method.
+   - GeeksforGeeks. (2024, April 30). How to measure time taken by a function in Java ? https://www.geeksforgeeks.org/java/measure-time-taken-function-java/ 
+
 
 ### Python Implementation (Tanisha)
 1. Python Official Documentation - Sorting HOW TO
