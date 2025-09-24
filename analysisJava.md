@@ -11,24 +11,31 @@
 - **Primary Key**: Name (alphabetical)
 - **Secondary Key**: Salary (descending)
 - **Use Case**: A business/company may need to locate a certain employee without knowing their employee ID.
-- **Time Complexity**:
-- **Space Complexity**:
+- **Time Complexity**:O(n log n)
+- **Space Complexity**:O(n)
 
 #### b) Sort by Salary then Name
 - **Primary Key**: Salary (descending)
 - **Secondary Key**: Name (alphabetical)
 - **Use Case**: An employer may need to view the highest paid workers or copmare productivity alongside salary. 
-- **Time Complexity**:
-- **Space Complexity**:
-
+- **Time Complexity**:O(n log n)
+- **Space Complexity**:O(n)
 
 ## 2. Comparison with Python & C++ Implementation
 
 ### 2.1 Language-Specific Differences
 - **Java**:
-  
+  - Uses the compare() method to specify rules
+  - Sorting algorithm is Timsort (modified version of mergesort)
+  - Allows flexibilty & maintainability
   
 - **Python**:
+  - Also uses Timsort (modified version of mergesort)
+  - Sort algorithms are stable
+
+- **C++**:
+  - Uses std::sort with a custom comparator
+  - Uses Introsort a hybrid algorithm combining a couple others
   
 ### 2.2 Performance Analysis
 
