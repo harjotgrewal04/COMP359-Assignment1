@@ -15,8 +15,22 @@
    - Youtube. (2025, February.18). [Java] Reading CSV files and using the Comparable interface. YouTube. https://www.youtube.com/watch?v=A-59zayrIdo
 
 3. Used to measure execution time for each search method.
-   - GeeksforGeeks. (2024, April 30). How to measure time taken by a function in Java ? https://www.geeksforgeeks.org/java/measure-time-taken-function-java/ 
+   - GeeksforGeeks. (2024, April 30). How to measure time taken by a function in Java ? https://www.geeksforgeeks.org/java/measure-time-taken-function-java/
 
+4. Researching performance optimization in custom sorting.
+   - Obregon, A. (2024, October 2). Java’s comparator.comparing() method explained. Medium. https://medium.com/@AlexanderObregon/javas-comparator-comparing-method-explained-342361288af6
+
+5.  Using comparators and comparable.
+   - Balding. (2025, March 26). Comparator and comparable in Java | Baeldung. Comparator and Comparable in Java. https://www.baeldung.com/java-comparator-comparable
+
+6. UUID information.
+   - Uuidv7: The Time-sortable identifier for modern databases. UUIDv7 Benefits. (n.d.). https://uuid7.com/
+
+7. Python custom sorting information.
+   - Valdarrama, S. (2023, November 27). Sorting algorithms in Python. Real Python. https://realpython.com/sorting-algorithms-python/
+
+8. C++ Sorting information.
+   - GeeksforGeeks. (2025, August 21). Custom comparator in C++. https://www.geeksforgeeks.org/cpp/comparator-in-cpp/
 
 ### Python Implementation (Tanisha)
 1. Python Official Documentation - Sorting HOW TO
