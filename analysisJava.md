@@ -71,8 +71,8 @@
 ## 4. Future Improvements
 
 ### 4.1 Potential Enhancements
-- Using UUID which gives each uniquely identify data
-- Creating a larger real-world dataset to test efficieny
+- Using UUID which is used an unique identifier for objects and data by using a 128-bit number to increase the amount of combinations
+- Creating a larger real-world dataset to test efficiency. 
 - Better display output of order or dividing into better sections (Percentiles)
 
 ### 4.2 Performance Optimization Opportunities
