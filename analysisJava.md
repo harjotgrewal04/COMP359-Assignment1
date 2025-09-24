@@ -34,24 +34,43 @@
 
 #### 2.2.1 Empirical Results (Dataset of 1000 employees)
 1. **Sort by Name then Salary**:
+   - Execution Time: 0.004214375 seconds
+   - About 0.00000421437 per item
    
 2. **Sort by Salary then ID**:
+   - Execution Time: 0.003463833 seconds
+   - About 0.00000346383 per item
 
 #### 2.2.2 Analysis of Results
-
+- Name Sorting is quiet slower than sorting by salary
+- Salary is much quicker as it only needs to compare two values
+- Some strings can be a lot longer than others
 
 #### 2.2.3 Language Comparison
 
 ## 3. Design Decisions
 
 ### 3.1 Why Custom Comparators?
+- Allows you to specify how to order certain objects
+- Also allows you to compare objects from a class without editing the source code
+- Can use multiple sorting techniques and define them how we would like
 
 ### 3.2 Why Interactive Menu?
+- Allows user to decide which way they may want it sorted
+- Can split up the sorting rules to test efficieny
+- Allows for further modifications
 
 ## 4. Future Improvements
 
 ### 4.1 Potential Enhancements
+- Using UUID which gives each uniquely identify data
+- Creating a larger real-world dataset to test efficieny
+- Better display output of order or dividing into better sections (Percentiles)
 
 ### 4.2 Performance Optimization Opportunities
+- Using java's built in parallelSort()
+- Using a more sorted list or a list which is almost sorted
 
 ## 5. Conclusion
+To sum up, the implementation created in java uses custom comparators for sorting the employees. The interactive menu allows the user or the employer in this case to decide how they would like to order these employees. Alongside each comparing method has its own tie breaker, when the same name is provided it will use the salary and when it has the same salary it will use the ordering of the name. Overall, this implementation demonstrates how custom sorting and the comparator and comparable interfaces are used in java. 
+
