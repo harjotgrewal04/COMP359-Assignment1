@@ -4,6 +4,7 @@
 
 ### 1.1 Java Implementation Approach
 - Included java comparator and comparable interfaces.
+- Took in user input for choice and variability. 
 
 ### 1.2 Sorting Criteria Analysis
 
